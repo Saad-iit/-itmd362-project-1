@@ -25,7 +25,9 @@ h2 {
 .main {
   display: flex;
   flex-direction: column;
-  padding: 23px;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
 }
 .info {
   padding: 24px;
@@ -77,5 +79,14 @@ button:hover {
 }
 
 @media (min-width: 600px) {
-	
+	/*float text to left*/
+	.main {
+  	flex-direction: row;
+	padding: 7%;
+	padding: calc(22% - 10em);
+	}
+	.info {
+	flex: 1;
+    height: auto;	
+	}
 }
