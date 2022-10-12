@@ -1,10 +1,10 @@
 function chkemtpy(){
 	
-  var fname = document.form["registerForm"]["fname"].value
-  var lname = document.form["registerForm"]["lname"].value
-  var phone = document.form["registerForm"]["phone"].value
-  var email = document.form["registerForm"]["email"].value
-  var pass = document.form["registerForm"]["password"].value
-  
+  var fname = document.forms["registerForm"]["fname"].value
+  var lname = document.forms["registerForm"]["lname"].value
+  var phone = document.forms["registerForm"]["phone"].value
+  var email = document.forms["registerForm"]["email"].value
+  var pass = document.forms["registerForm"]["password"].value
+ 
   
 }
