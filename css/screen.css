@@ -6,30 +6,68 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100%;
+  padding: 0;
+  margin: 0;
+  color: white;
 }
 h1 {
-	
+  text-transform: uppercase;
 }
 h2 {
-	
+  text-transform: uppercase;
+  margin: auto;
 }
 .main {
-	
+  display: flex;
+  flex-direction: column;
+  padding: 23px;
 }
 .info {
-	
+  padding: 23px;
+  text-align: center;	
 }
 .title {
-	
+  margin-bottom: 20px;
 }
 .register {
-	
+  display: flex;
+  flex-direction: column;
 }
 .check {
-	
+  margin-bottom: 12px;
+  vertical-align: middle;
+}
+label {
+  margin-bottom: 12px;
+  vertical-align: middle;
+}
+form {
+  padding: 23px;
+  background: black;
+  opacity: 0.8;
+}
+input {
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+select {
+  padding: 5px;
+  margin-bottom: 30px;
 }
 button {
-	
+  color: white; 
+  font-size: 20px;
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  background: #4e97e8;
+  border: none;
+  border-radius: 5px; 
+  
+}
+button:hover {
+  background: #83bbfa;
 }
 
 @media (min-width: 600px) {
