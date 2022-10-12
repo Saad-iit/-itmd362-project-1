@@ -35,7 +35,7 @@ p {
 .info {
   padding: 24px;
   font-size: 20px;
-  text-align: center;	
+  text-align: center;  
 }
 .title {
   margin-bottom: 20px;
@@ -81,7 +81,7 @@ button:hover {
   background: #f46c6c;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 650px) {
 	/*float text to left*/
 	html{
 	height: 100%
@@ -100,4 +100,26 @@ button:hover {
 	p {
 	padding-top: 10px;
 	}
+}
+
+@media (min-width: 1000px) {
+	/*float text to left*/
+	html{
+	height: 100%
+	}
+	body{
+	height: 100%
+	}
+	.main {
+  	flex-direction: row;
+	height: calc(100% - 50px);
+	padding-right: 16%;
+	padding-left: 10%;
+	}
+	.info {
+	flex: 1 30px;
+    height: auto;	
+	}
+	p {
+	padding-top: 10px;
 }
