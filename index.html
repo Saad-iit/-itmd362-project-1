@@ -10,13 +10,23 @@
 </head>
 <body>
 <form method="get" action="#null">
-    <h1>Saad's working title</h1>
-  <input type="text" name="name" placeholder="Full name">
-  <input type="email" name="email" placeholder="Email" pattern="^.+@.+$" />
+  <h1>Register to Speak</h1>
+  <p>Conference to speak about lectures, case studies, new findings, and other demo purposes.</p> 
+  <h1>Register Now</h1>
+  <input type="text" name="name" placeholder="First Name">
+  <input type="text" name="name" placeholder="Last Name">
   <input type="tel" name="phone" placeholder="Phone number">
+  <input type="email" name="email" placeholder="Email" pattern="^.+@.+$" />
   <input type="password" name="password" placeholder="Password">
+  <select>
+    <option value="speaker-type" selected>-Speaker-</option>
+    <option value="lecture">Lecture</option>
+    <option value="presentation">Presentation</option>
+    <option value="case-study">Case Study</option>
+    <option value="product-demo">Product Demo</option>
+  </select>
   <input type="checkbox" name="checkbox">
-  <label>I agree to the Privacy Poalicy</label>
+  <label>I agree to the Privacy Policy</label>
   <button type="Submit">Submit</button>
 </body>
 </html>
