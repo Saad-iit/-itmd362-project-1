@@ -1,7 +1,10 @@
 html {
 }
 body {
-	background: url("bg/conventioncenter.jpg")
+  background-image: url("bg/conventioncenter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200%;
 }
 h1 {
 	
