@@ -6,7 +6,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100%;
-  font-family: "Roboto",Arial,Helvetica,sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
   color: white;
@@ -21,6 +21,9 @@ h2 {
   margin: auto;
   font-size: 26px;
   font-weight: bold;
+}
+p {
+	padding-top: 13px;
 }
 .main {
   display: flex;
@@ -52,7 +55,7 @@ label {
 form {
   padding: 23px;
   background: black;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 input {
   padding: 5px;
@@ -69,24 +72,32 @@ button {
   width: 100%;
   padding: 5px;
   margin-top: 5px;
-  background: #4e97e8;
+  background: #dc3232;
   border: none;
   border-radius: 5px; 
   
 }
 button:hover {
-  background: #83bbfa;
+  background: #f46c6c;
 }
 
 @media (min-width: 600px) {
 	/*float text to left*/
+	html{
+	height: 100%
+	}
+	body{
+	height: 100%
+	}
 	.main {
   	flex-direction: row;
-	padding: 7%;
-	padding: calc(22% - 10em);
+	height: calc(100% - 50px);
 	}
 	.info {
-	flex: 1;
+	flex: 1 30px;
     height: auto;	
+	}
+	p {
+	padding-top: 10px;
 	}
 }
