@@ -85,7 +85,7 @@ select {
 #submit:hover {
   background: #f46c6c;
 }
-}
+
 @media (min-width: 650px) {
 	/*float text to left*/
 	html{
